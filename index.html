@@ -112,7 +112,7 @@
       </div>-->
 
 	   <div class="item active">
-        <img src="./Images/refactoring-teaching.png" height="200" width="200" alt="Image">
+        <img src="./Images/refactor-ai.png" height="200" width="200" alt="Image">
         <div class="carousel-caption">
           <h3></h3>
           <p></p>
@@ -170,34 +170,20 @@
 
  <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">On the Use of Static Analysis to Engage Students with Software
-Quality Improvement: An Experience with PMD</h1>
-	  <p><strong><em>Published at International Conference on Software Engineering (ICSE'2023) </em></strong><a href="./Preprint/ICSE23-preprint.pdf"><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="https://ieeexplore.ieee.org/document/10172545"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
-        <p>To increase the awareness of potential coding issues that violate
-coding standards, in this paper, we aim to reflect on our
-experience with teaching the use of static analysis for the purpose
-of evaluating its effectiveness in helping students with respect to
-improving software quality. This paper discusses the results of
-an experiment in the classroom, over a period of 3 academic
-semesters, involving 65 submissions that carried out code review
-activity of 690 rules using PMD</p>
-<p>In particular, we addressed the following research questions:</p>
-<p><strong>RQ1.</strong> What problems are typically perceived by students as true
-positives versus false positives?</p>
-<p><strong>RQ2.</strong> What category of problems typically takes longer to be
-fixed?</p>
-<p><strong>RQ3.</strong> What is the perceived usefulness of PMD?</p>
-	  <p>The dataset utilized in this study is available for download <a href="./Data/PMD.pdf"  style="color:blue;">here.</a></p>
+      <h1 class="w3-text-teal">Exploring ChatGPT’s code refactoring capabilities: An empirical study</h1>
+	  <p><strong><em>Published at Expert Systems with Applications (ESWA'2023) </em></strong><a href="./Preprint/ICSE23-preprint.pdf"><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="https://www.sciencedirect.com/science/article/pii/S0957417424004676"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
+        <p>ChatGPT has shown great potential in the field of software engineering with its ability to generate code. Yet, ChatGPT’s ability to interpret code has been deemed unreliable and faulty, which causes concern for the platform’s ability to properly refactor code. To confront this concern, we carried out a study to assess ChatGPT’s abilities and limitations in refactoring code. We divided the study into three parts: if ChatGPT can refactor the code, if the refactored code preserves the behavior of the original code segments, and if ChatGPT is capable of providing documentation for the refactored code to provide insights into intent, instructions, and impact. We focused our research specifically on eight quality attributes to use when prompting ChatGPT to refactor our dataset of 40 Java code segments. After collecting the refactored code segments from ChatGPT, as well as data on whether the behavior was preserved, we ran the refactored code through PMD, a source code analyzer, to find programming flaws. We also tested ChatGPT’s accuracy in generating documentation for the refactored code and analyzed the difference between the results of each quality attribute.</p>
+	  <p>The dataset utilized in this study is available for download <a href="https://sites.google.com/stevens.edu/chatgptdataanalysis/home"  style="color:blue;">here.</a></p>
     </div>
   </div><hr>
 
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal"><a href="./SIGCSE2024.html">Automating Source Code Refactoring in the Classroom</a></h1>
-	  <p><strong><em>Published at the Proceedings of the 55th ACM Technical Symposium on Computer Science Education  (SIGCSE'2024) </em></strong><a href="./Preprint/SIGCSE24-preprint.pdf"><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="https://dl.acm.org/doi/abs/10.1145/3626252.3630787"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
-      <p>Refactoring is the practice of improving software quality without altering its external behavior. Developers intuitively refactor their code for multiple purposes, such as improving program comprehension, reducing code complexity, dealing with technical debt, and removing code smells. However, no prior studies have exposed the students to an experience of the process of antipattern detection and refactoring correction and provided students with the toolset to practice it. To understand and increase the awareness of refactoring concepts, in this paper, we aim to reflect on our experience with teaching refactoring and how it helps students become more aware of bad programming practices and the importance of correcting them via refactoring. This paper discusses the results of an experiment in the classroom that involved carrying out various refactoring activities for the purpose of removing antipatterns using JDeodorant, an Eclipse plugin that supports antipatterns detection and refactoring. The results of the qualitative analysis with 171 students show that students tend to appreciate the idea of learning refactoring and are satisfied with various aspects of the JDeodorant plugin’s operation. Through this experiment, refactoring can turn into a vital part of the computing educational plan. We envision our findings enabling educators to support students with refactoring tools tuned towards safer and trustworthy refactoring.</p>
-<p>The dataset utilized in this study is available for download <a href="./SIGCSE2024.html"  style="color:blue;">here.</a></p>
+      <h1 class="w3-text-teal"><a href="./SIGCSE2024.html">How to refactor this code? an exploratory study on developer-chatgpt refactoring conversations</a></h1>
+	  <p><strong><em>Published at the Proceedings of the International Conference on Mining Software Repositories  (MSR'2024) </em></strong><a href="./Preprint/SIGCSE24-preprint.pdf"><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="https://dl.acm.org/doi/abs/10.1145/3643991.3645081"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
+      <p>Large Language Models (LLMs), like ChatGPT, have gained widespread popularity and usage in various software engineering tasks, including refactoring, testing, code review, and program comprehension. Despite recent studies delving into refactoring documentation in commit messages, issues, and code review, little is known about how developers articulate their refactoring needs when interacting with ChatGPT. In this paper, our goal is to explore conversations between developers and ChatGPT related to refactoring to better understand how developers identify areas for improvement in code and how ChatGPT addresses developers' needs. Our approach relies on text mining refactoring-related conversations from 17,913 ChatGPT prompts and responses, and investigating developers' explicit refactoring intention. Our results reveal that (1) developer-ChatGPT conversations commonly involve generic and specific terms/phrases; (2) developers often make generic refactoring requests, while ChatGPT typically includes the refactoring intention; and (3) various learning settings when prompting ChatGPT in the context of refactoring. We envision that our findings contribute to a broader understanding of the collaboration between developers and AI models.</p>
+<p>The dataset utilized in this study is available for download <a href="https://smilevo.github.io/self-affirmed-refactoring/MSR24_index.html"  style="color:blue;">here.</a></p>
     </div>
   </div>
 <hr>
@@ -205,21 +191,31 @@ fixed?</p>
 
 <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal"><a href="./CSEET2024.html">Cultivating Software Quality Improvement in the
-Classroom: An Experience with ChatGPT</a></h1>
-	  <p><strong><em>Published at the Proceedings of the 36th the Conference on Software Engineering Education and Training (CSEE&T'2024)   </em></strong><a href=""><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="https://dl.acm.org/doi/abs/10.1145/3626252.3630787"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
-      <p>Large Language Models (LLMs), like ChatGPT, have gained widespread popularity and usage in various software engineering tasks, including programming, testing, code review, and program comprehension. However, their effectiveness in improving software quality in the classroom remains uncertain. In this paper, we aim to shed light on our experience in teaching the use of ChatGPT to cultivate a bugfix culture and leverage LLMs to improve software quality in educational settings. This paper discusses the results of an experiment involving 102 submissions that carried out a code review activity of 1,230 rules. Our quantitative and qualitative analysis reveals that a set of PMD quality issues influences the acceptance or rejection of the issues, and design-related categories that take longer to resolve. While students acknowledge the potential of using ChatGPT during code review, some skepticism persists. Code review can become a vital part of the educational computing plan through this experiment. We envision our findings to enable educators to support students with code review strategies to raise students' awareness about LLM and promote software quality in education.</p>
-<p>The dataset utilized in this study is available for download <a href="./CSEET2024.html"  style="color:blue;">here.</a></p>
+      <h1 class="w3-text-teal"><a href="./CSEET2024.html">ChatGPT for code refactoring: Analyzing topics, interaction, and effective prompts</a></h1>
+	  <p><strong><em>Published at the Proceedings of the International Conference on Collaborative Advances in Software and ComputiNg (CASCON'2025)   </em></strong><a href=""><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="xxx"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
+      <p>Large Language Models (LLMs), such as ChatGPT, have become widely popular and widely used in various software engineering tasks such as refactoring, testing, code review, and program comprehension. Although recent studies have examined the effectiveness of LLMs in recommending and suggesting refactoring, there is a limited understanding of how developers express their refactoring needs when interacting with ChatGPT. In this paper, our goal is to explore interactions related to refactoring between developers and ChatGPT to better understand how developers identify areas for improvement in code, and how ChatGPT addresses developers' needs. Our approach involves text mining 715 refactoring-related interactions from 29,778 ChatGPT prompts and responses, as well as the analysis of developers' explicit refactoring intentions.</p>
+<p>The dataset utilized in this study is available for download <a href="https://smilevo.github.io/self-affirmed-refactoring/GPT-refactoring/index.html"  style="color:blue;">here.</a></p>
     </div>
   </div>
 <hr>
 
 <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal"><a href="./CSEET2024.html">Nurturing Code Quality: Leveraging Static Analysis and Large Language Models for Software Quality in Education</a></h1>
-	  <p><strong><em>Published at the Transactions on Computing Education (TOCE'2025)   </em></strong><a href=""><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="https://dl.acm.org/doi/abs/10.1145/3722229"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
-      <p>Large Language Models (LLMs), such as ChatGPT, have become widely popular for various software engineering tasks, including programming, testing, code review, and program comprehension. However, their impact on improving software quality in educational settings remains uncertain. This paper explores our experience teaching the use of Programming Mistake Detector (PMD) to foster a culture of bug fixing and leverage LLM to improve software quality in the classroom. This paper discusses the results of an experiment involving 155 submissions that carried out a code review activity of 1,658 rules. Our quantitative and qualitative analysis reveals that a set of PMD quality issues influences the acceptance or rejection of the issues, and design-related categories that take longer to resolve. Although students acknowledge the potential of using ChatGPT during code review, some skepticism persists. Further, constructing prompts for ChatGPT that possess clarity, complexity, and context nurtures vital learning outcomes, such as enhanced critical thinking, and among the 1,658 issues analyzed, 93% of students indicated that ChatGPT did not identify any additional issues beyond those detected by PMD. Conversations between students and ChatGPT encompass five categories, including ChatGPT’s use of affirmation phrases like ‘certainly’ regarding bug fixing decisions, and apology phrases such as ‘apologize’ when resolving challenges. Through this experiment, we demonstrate that code review can become an integral part of the educational computing curriculum. We envision our findings to enable educators to support students with effective code review strategies, increasing awareness of LLMs, and promoting software quality in education.</p>
-<p>The dataset utilized in this study is available for download <a href="./CSEET2024.html"  style="color:blue;">here.</a></p>
+      <h1 class="w3-text-teal"><a href="./CSEET2024.html">Software refactoring research with large language models: A systematic literature review</a></h1>
+	  <p><strong><em>Published at the Journal of Systems and Software (JSS'2025)   </em></strong><a href=""><i class="fa fa-file-pdf-o" style="font-size:24px;color:red"></i></a> <a href="xxx"><i class="fa fa-graduation-cap" style="font-size:24px;color:blue"></i></a></p>
+      <p>Code refactoring is the improvement of code internally without
+changing the external functionalities of the program. Due to its exhaustive
+nature, developers often avoid manually refactoring code. Researchers have
+since looked into utilizing Large Language Models (LLMs) to automate the
+task of refactoring.
+Aim and Method: Despite the promising results, there is a lack of clear un-
+derstanding of LLMs’ effectiveness in automated refactoring. In order to address
+this issue, we conducted a Systematic Literature Review (SLR) of 50 primary
+studies. We categorized the studies into different refactoring methods studied,
+prompt engineering and techniques conducted, LLM tools used, languages used,
+and datasets used. We touched upon the benchmarks each studies had used,
+how accurate LLM-generated refactorings are, and the challenges that this field
+faces currently.</p>
     </div>
   </div>
 <hr>	
